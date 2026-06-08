@@ -2,18 +2,16 @@
 
 ## 📌 Overview
 
-This project implements the **K-Means Clustering** algorithm to segment retail store customers based on their purchasing behavior.
-
-Customer segmentation helps businesses better understand their customers, enabling personalized marketing strategies, targeted promotions, and improved customer engagement.
+This project implements the **K-Means Clustering** algorithm to segment retail store customers based on their purchasing behavior. Customer segmentation is a powerful technique that helps businesses understand customer groups and develop personalized marketing strategies.
 
 ---
 
 ## 🎯 Objective
 
-To group retail store customers into distinct clusters based on:
+To group customers of a retail store into distinct segments based on:
 
-* Annual Income
-* Spending Score
+* Annual Income (k$)
+* Spending Score (1–100)
 
 using the K-Means Clustering algorithm.
 
@@ -32,11 +30,11 @@ using the K-Means Clustering algorithm.
 
 ## 📂 Dataset
 
-The dataset contains customer information such as annual income and spending score, which are used for clustering analysis.
+The dataset contains customer information such as annual income and spending score, which are used to identify customer segments.
 
 ### Dataset Preview
 
-![Dataset Preview](screenshots/dataset_preview.png)
+![Dataset Preview](screenshots/Screenshot%202026-06-08%20140610.png)
 
 ---
 
@@ -45,10 +43,10 @@ The dataset contains customer information such as annual income and spending sco
 1. Data Collection
 2. Data Exploration
 3. Feature Selection
-4. Determining Optimal Number of Clusters
+4. Determining the Optimal Number of Clusters
 5. Applying K-Means Clustering
-6. Visualizing Customer Segments
-7. Analyzing Cluster Characteristics
+6. Customer Segmentation
+7. Data Visualization and Analysis
 
 ---
 
@@ -56,9 +54,9 @@ The dataset contains customer information such as annual income and spending sco
 
 ### K-Means Clustering
 
-K-Means is an unsupervised machine learning algorithm that groups similar data points into clusters based on feature similarity.
+K-Means is an unsupervised machine learning algorithm that groups similar data points into clusters based on their characteristics.
 
-Features Used:
+**Features Used:**
 
 * Annual Income (k$)
 * Spending Score (1–100)
@@ -75,7 +73,7 @@ The Elbow Method was used to determine the optimal number of clusters by analyzi
 
 ## 📊 Customer Segmentation Results
 
-The customers were successfully grouped into distinct segments based on their spending behavior and annual income.
+The customers were successfully grouped into distinct clusters based on their income and spending behavior.
 
 ### Customer Clusters
 
@@ -85,7 +83,7 @@ The customers were successfully grouped into distinct segments based on their sp
 
 ## 🔍 Insights
 
-The clustering process helps identify:
+The clustering analysis helps identify:
 
 * High-income, high-spending customers
 * High-income, low-spending customers
@@ -93,7 +91,7 @@ The clustering process helps identify:
 * Budget-conscious customers
 * Average spending customers
 
-These insights can assist businesses in developing targeted marketing campaigns and customer retention strategies.
+These insights can support targeted marketing, customer retention strategies, and business decision-making.
 
 ---
 
@@ -103,16 +101,16 @@ Through this project, I gained practical experience in:
 
 * Unsupervised Machine Learning
 * K-Means Clustering
+* Customer Segmentation Techniques
+* Cluster Analysis
 * Data Visualization
-* Customer Segmentation Analysis
-* Cluster Evaluation using the Elbow Method
-* Implementing Machine Learning models with Scikit-Learn
+* Implementing Machine Learning Algorithms using Scikit-Learn
 
 ---
 
 ## 🚀 Outcome
 
-Successfully developed a customer segmentation model using K-Means Clustering to identify distinct customer groups based on purchasing behavior. This project enhanced my understanding of unsupervised learning techniques and their applications in business analytics.
+Successfully developed a customer segmentation model using K-Means Clustering to identify meaningful customer groups based on purchasing behavior. This project enhanced my understanding of unsupervised learning techniques and their real-world applications in business analytics.
 
 ---
 
@@ -120,4 +118,4 @@ Successfully developed a customer segmentation model using K-Means Clustering to
 
 **Divya Sai Sri Javvadi**
 
-Machine Learning Internship Project – Task 2
+Machine Learning Internship Project – Task 2 | SkillCraft Technology
